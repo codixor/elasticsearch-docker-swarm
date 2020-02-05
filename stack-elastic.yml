@@ -220,9 +220,6 @@ networks:
     driver: overlay
     attachable: true
     name: esnet
-  proxy:
-    driver: overlay
-    name: proxy
 
 volumes:
   esmaster1:
@@ -232,7 +229,6 @@ volumes:
   esdata1:
   esdata2:
   esdata3:
-  esdata4:
 
 configs:
   es-coordination:
